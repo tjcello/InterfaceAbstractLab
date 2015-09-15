@@ -11,6 +11,8 @@ package lab1;
  */
 public class run {
     public static void main(String[] args) {
-        
+      Programming course = new IntroJavaCourse("a","b");
+      Programming course2 = new AdvancedJavaCourse("c","d");
+      Programming course3 = new IntroToProgrammingCourse("e", "f");
     }
 }
