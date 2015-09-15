@@ -10,5 +10,12 @@ package lab2;
  * @author Thomas
  */
 public interface Programming {
+    public String getCourseNumber();
+    public double getCredits();
+    public void setCourseName();
+    public void setCredits();
     
-}
+    
+    
+            
+            }
