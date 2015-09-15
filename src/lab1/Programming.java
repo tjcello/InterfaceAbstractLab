@@ -18,24 +18,20 @@ public abstract class Programming {
         return courseName;
     }
 
-    public void setCourseName(String courseName) {
-        this.courseName = courseName;
-    }
+    public abstract void setCourseName(String courseName); 
+        
+    
 
     public String getCourseNumber() {
         return courseNumber;
     }
 
-    public void setCourseNumber(String courseNumber) {
-        this.courseNumber = courseNumber;
-    }
+    public abstract void setCourseNumber(String courseNumber);
 
     public double getCredits() {
         return credits;
     }
 
-    public void setCredits(double credits) {
-        this.credits = credits;
-    }
+    public abstract void setCredits(double credits);
 }
 

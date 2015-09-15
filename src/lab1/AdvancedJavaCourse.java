@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
  * @author      your name goes here
  * @version     1.00
  */
-public class AdvancedJavaCourse extends Programming{
+public  class AdvancedJavaCourse extends Programming{
     private String courseName;
     private String courseNumber;
     private double credits;
@@ -37,6 +37,7 @@ public class AdvancedJavaCourse extends Programming{
         this.prerequisites = prerequisites;
     }
 
+    
     public void setCredits(double credits) {
         if(credits < 0.5 || credits > 4.0) {
             JOptionPane.showMessageDialog(null,
@@ -54,8 +55,9 @@ public class AdvancedJavaCourse extends Programming{
 
     
 
+    
     public void setCourseNumber(String courseNumber) {
         this.courseNumber = courseNumber;
     }
-    
-}
+
+}  
