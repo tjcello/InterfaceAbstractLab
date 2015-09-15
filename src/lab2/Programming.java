@@ -12,8 +12,8 @@ package lab2;
 public interface Programming {
     public String getCourseNumber();
     public double getCredits();
-    public void setCourseName();
-    public void setCredits();
+    public void setCourseNumber(String courseNumber);
+    public void setCredits(double credits);
     
     
     
