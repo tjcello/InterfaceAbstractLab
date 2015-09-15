@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
  * @author      your name goes here
  * @version     1.00
  */
-public class AdvancedJavaCourse {
+public class AdvancedJavaCourse extends Programming{
     private String courseName;
     private String courseNumber;
     private double credits;
@@ -46,17 +46,13 @@ public class AdvancedJavaCourse {
         this.setCredits(credits);
     }
 
-    public String getCourseName() {
-        return courseName;
-    }
+    
 
     public void setCourseName(String courseName) {
         this.courseName = courseName;
     }
 
-    public String getCourseNumber() {
-        return courseNumber;
-    }
+    
 
     public void setCourseNumber(String courseNumber) {
         this.courseNumber = courseNumber;
